@@ -18,35 +18,18 @@ namespace SpecflowPages.Utils
             Thread.Sleep(1000);
 
             //Enter Url
-            Driver.driver.FindElement(By.XPath("//*[@id='home']/div/div/div[1]/div/a[2]")).Click();
+            Driver.driver.FindElement(By.XPath("//a[@class='item'][contains(.,'Sign In')]")).Click();
 
             //Enter Username
-            Driver.driver.FindElement(By.XPath("/html/body/div[2]/div/div/div/div[1]/form/div[1]/input")).SendKeys("hari7chandana@gmail.com");
+            Driver.driver.FindElement(By.XPath("//input[contains(@placeholder,'Email address')]")).SendKeys("mvpstudio.qa@gmail.com");
 
             //Enter password
-            Driver.driver.FindElement(By.XPath("/html/body/div[2]/div/div/div/div[1]/form/div[2]/input")).SendKeys("Test@123");
+            Driver.driver.FindElement(By.XPath("//input[contains(@type,'password')]")).SendKeys("SydneyQa2018");
             Thread.Sleep(1000);
             //Click on Login Button
-            Driver.driver.FindElement(By.XPath("/html/body/div[2]/div/div/div/div[1]/form/div[4]/div")).Click();
+            Driver.driver.FindElement(By.XPath("//button[@class='fluid ui teal button'][contains(.,'Login')]")).Click();
 
-            //string msg = "Add New Job";
-            //string Actualmsg = Driver.driver.FindElement(By.XPath("//*[@id='addnewjob']")).Text;
-
-            //if (msg == Actualmsg)
-            //{
-                //Console.WriteLine("Test Passed");
-                //CommonMethods.ExtentReports();
-                //Thread.Sleep(500);
-                //test = CommonMethods.extent.StartTest("Login with valid data");
-                //Thread.Sleep(1000);
-                //CommonMethods.test.Log(LogStatus.Pass, "Test Passed");
-                //SaveScreenShotClass.SaveScreenshot(Driver.driver, "HomePage");
-            //}
-            //else
-            //{
-                //Console.WriteLine("Test Failed");
-                //CommonMethods.test.Log(LogStatus.Fail, "Test Failed");
-            //}
+          
         }
 
     }

@@ -76,13 +76,7 @@ namespace SpecflowTests.AcceptanceTest
             {
                 CommonMethods.test.Log(LogStatus.Fail, "Test Failed", e.Message);
             }
-
-
-
-
-
-
-
+               
         }
     }
 }

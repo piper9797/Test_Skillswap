@@ -19,13 +19,14 @@ namespace SpecflowTests.AcceptanceTest
         public void GivenIHaveClickedTheAddNewButtonInEducationArea()
         {
                
-            Thread.Sleep(4000);
+            Thread.Sleep(2000);
             // select the education 
             Driver.driver.FindElement(By.XPath("//a[@data-tab='third']")).Click();
-
+            Thread.Sleep(4000);
             // add the new education information
-            Driver.driver.FindElement(By.XPath("(//div[contains(@class,'ui teal button ')])[2]")).Click();
-            //fill in the university details
+            Driver.driver.FindElement(By.XPath("(//div[@class='ui teal button '])[2]")).Click();
+            //fill in the university details   
+
             Driver.driver.FindElement(By.XPath("//input[contains(@placeholder,'College/University Name')]")).SendKeys("University of Auckland");
             // add the country
             Driver.driver.FindElement(By.XPath("//select[contains(@name,'country')]")).Click();

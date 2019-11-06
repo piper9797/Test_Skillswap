@@ -3,7 +3,7 @@
 	As a skill trader
 	I want to add the languages that I know
 
-@mytag
+@auto
 Scenario: Check if user could able to add a language 
 	Given I clicked on the Language tab under Profile page
 	When I add a new language

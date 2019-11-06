@@ -109,17 +109,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ChangeTheEarnTarget.feature</DependentUpon>
     </Compile>
-    <Compile Include="AcceptanceTest\FeatureFile\DeleteTheEducationIAdded.feature.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DeleteTheEducationIAdded.feature</DependentUpon>
-    </Compile>
     <Compile Include="AcceptanceTest\FeatureFile\ModifyDescription.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ModifyDescription.feature</DependentUpon>
     </Compile>
-    <Compile Include="AcceptanceTest\DescriptionSteps\DeleteTheEducationIAddedSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="AcceptanceTest\FeatureFile\SpecFlowFeature1.feature.cs">
       <AutoGen>True</AutoGen>
@@ -136,10 +130,6 @@
     <None Include="AcceptanceTest\FeatureFile\ChangeTheEarnTarget.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>ChangeTheEarnTarget.feature.cs</LastGenOutput>
-    </None>
-    <None Include="AcceptanceTest\FeatureFile\DeleteTheEducationIAdded.feature">
-      <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>DeleteTheEducationIAdded.feature.cs</LastGenOutput>
     </None>
     <None Include="AcceptanceTest\FeatureFile\ModifyDescription.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

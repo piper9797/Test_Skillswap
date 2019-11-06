@@ -1,9 +1,9 @@
 ﻿Feature: ModifyDescription
 	In order to update user's profile
 	As a user
-	I want to be modify a user's description
+	I want to modify a user's description
 
-@mytag
+@auto 
 Scenario: Modify the Description
 	Given I have clicked the description button
 	And I have modified it and save it

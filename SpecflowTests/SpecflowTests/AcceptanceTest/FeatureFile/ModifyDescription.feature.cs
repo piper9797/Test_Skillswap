@@ -44,8 +44,8 @@ namespace SpecflowTests.AcceptanceTest.FeatureFile
         public static void FeatureSetup(Microsoft.VisualStudio.TestTools.UnitTesting.TestContext testContext)
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "ModifyDescription", "\tIn order to update user\'s profile\r\n\tAs a user\r\n\tI want to be modify a user\'s des" +
-                    "cription", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "ModifyDescription", "\tIn order to update user\'s profile\r\n\tAs a user\r\n\tI want to modify a user\'s descri" +
+                    "ption", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -86,11 +86,11 @@ namespace SpecflowTests.AcceptanceTest.FeatureFile
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Modify the Description")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ModifyDescription")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("auto")]
         public virtual void ModifyTheDescription()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Modify the Description", new string[] {
-                        "mytag"});
+                        "auto"});
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8

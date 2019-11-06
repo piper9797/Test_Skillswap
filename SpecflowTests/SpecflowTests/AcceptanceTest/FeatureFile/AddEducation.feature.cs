@@ -86,11 +86,11 @@ namespace SpecflowTests.AcceptanceTest.FeatureFile
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
         [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("AddEducation")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "AddEducation")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("mytag")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("auto")]
         public virtual void AddEducation()
         {
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("AddEducation", new string[] {
-                        "mytag"});
+                        "auto"});
 #line 7
 this.ScenarioSetup(scenarioInfo);
 #line 8
